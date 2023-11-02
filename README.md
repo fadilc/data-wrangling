@@ -31,7 +31,8 @@ To solve this problem, you can create groups with the 125 segments we obtained e
 
 For this project, I will use the bloomreach segmentation model (link to blog), which contains the following 11 customer segments.
 
-2023-01-22 11_36_21-RFM Segmentation.png
+![image](https://github.com/fadilc/data-wrangling/assets/118906826/815364bc-c1ac-4358-8514-13d8a1b13a8d)
+
 
 Note: it is important that the scores have been concatenated in order to match the values in the table. That is, the recency should be first, then the frequency and finally the monetary (RecencyFrequencyMonetary score).
 
