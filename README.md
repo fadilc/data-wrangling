@@ -23,6 +23,17 @@ Top 10 city with high product sales?
 What time we should display the product?
 
 Recency, Frequency, Monetary (RFM) Analysis
+guide for (RFM) : https://documentation.bloomreach.com/engagement/docs/rfm-segmentation
+
+The problem is that doing this meant creating 125 (5x5x5) customer segments, which does not allow us to obtain useful information that can be converted into real action. For example, it is unfeasible to run 125 personalized marketing campaigns.
+
+To solve this problem, you can create groups with the 125 segments we obtained earlier. In order to create them, it is important to keep the following in mind: The new segments must be large enough to be "actionable" (usable) but small enough to be identified as a distinct group. A group made up of consumers with very different buying behaviors is useless.
+
+For this project, I will use the bloomreach segmentation model (link to blog), which contains the following 11 customer segments.
+
+2023-01-22 11_36_21-RFM Segmentation.png
+
+Note: it is important that the scores have been concatenated in order to match the values in the table. That is, the recency should be first, then the frequency and finally the monetary (RecencyFrequencyMonetary score).
 
 source : https://www.kaggle.com/code/marta99/olist-e-commerce-eda-and-rfm-analysis#RFM-ANALYSIS
 
